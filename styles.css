@@ -1,8 +1,11 @@
-body {
+html, body {
     background-color: black;
-
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
-
 .sidebar {
     position: fixed;
     top: 0;
@@ -295,3 +298,48 @@ background-color: #242424;
     border-radius: 20px;
 
 }
+.footer {
+    background: linear-gradient(90deg,#af2896,#509bf5);
+    color: #b3b3b3;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+    cursor: pointer;
+    display: flex;
+    padding: 11px 24px 7px 15px;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+    z-index: 1;
+    align-items: center; 
+    width: 100vw;
+    box-sizing: border-box; 
+    position: absolute;
+    bottom: 0;  
+    
+    
+    }
+.footer .footer__content{
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px;
+    
+
+}
+.footer .button__inscrever{
+    background-color: white;
+    border: 1px solid #878787;
+    color: #121212;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+}
+
