@@ -310,7 +310,7 @@ background-color: #242424;
     gap: 24px;
     z-index: 1;
     align-items: center; 
-    width: 100vw;
+    width: 99vw;
     box-sizing: border-box; 
     position: absolute;
     bottom: 0;  
