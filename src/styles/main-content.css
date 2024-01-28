@@ -361,3 +361,27 @@
     padding: 20px 40px;
   }
   /* FIM CARD ARTISTA */
+
+  .social-buttons {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.social-button {
+  display: inline-block;
+  background-color: #6a6a6a;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden; /* Garante que o tamanho seja consistente */
+  width: 30px; /* Defina a largura desejada para os botões */
+  height: 30px; /* Defina a altura desejada para os botões */
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.social-button img {
+  width: 100%; /* Garante que a imagem preencha o contêiner */
+  height: auto; /* Mantém a proporção original da imagem */
+}
